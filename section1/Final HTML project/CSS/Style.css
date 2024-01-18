@@ -1,0 +1,40 @@
+.home_img{
+    width: 100%;
+    height: 600px;
+    margin-top: 18px;
+}
+
+.mid_section {
+    text-align: center;
+    margin-top: 610px; 
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.places_to_visit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.places_to_visit_image{
+    width: 300px;
+    height: 300px;
+}
+
+.image {
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+.image p {
+    line-height: 25px;
+    margin: 0;
+}
+
+

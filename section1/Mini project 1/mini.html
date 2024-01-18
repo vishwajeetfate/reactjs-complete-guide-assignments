@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini Porject 1</title>
+    <style>
+        #header {
+            height: 38px;
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(127, 127, 181);
+            margin: 0%;
+        }
+
+        #left_section {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .names {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 500;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 20px ;
+        }
+        #list_heading{
+            font-size: 30px;
+            padding-left: 28px;
+        }
+
+        .food_item{
+          text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(175, 216, 240);">
+    <div id="header">
+        <div id="left_section">
+            <div class="names">
+                <div style="margin-right: 20px;">index</div>
+                <div style="margin-right: 20px;">Food</div>
+                <div style="margin-right: 20px;">About</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="body">
+        <h3 class="list_heading">Top 5 Favourite Food :</h3>
+        <ul>
+            <li><a href="#Biryani">Biryani</a></li>
+            <li><a href="#Pizza">Pizza</a></li>
+            <li><a href="#Lisagna">Lisagna</a></li>
+            <li><a href="#Burger">Burger</a></li>
+            <li><a href="#Caesar Salad">Caesar Salad</a></li>
+        </ul>
+    </div>
+
+    <div class="food_item">    
+    <div>
+        <img id="Biryani" class="Food_img" src="Biryani.jpg" alt="">
+        <p>Biryani</p>
+    </div>
+    <div>
+        <img id="Pizza" class="Food_img" src="Pizza.jpg" alt="">
+        <p>Pizza</p>
+    </div>
+    <div>
+        <img id="Lisagna" class="Food_img" src="Lisagna.jpg" alt="">
+        <p>Lisagna</p>
+    </div>
+    <div>
+        <img id="Burger" class="Food_img" src="Burger.jpg" alt="">
+        <p>Burger</p>
+    </div>
+    <div>
+        <img id="Caesar Salad" class="Food_img" src="Caesar Salad.jpg" alt="">
+        <p>Caesar Salad</p>
+    </div>
+    </div>
+</body>
+</html>
